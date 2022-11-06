@@ -1,0 +1,51 @@
+.projects__container {
+    display: grid;
+    grid-template-rows: 0fr 0fr;
+    gap: 2rem;
+  }
+.projects__container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 3rem;
+    border: 1px solid var(--color-primary);
+  }
+
+.projects__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+  }
+
+.projects__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+  }
+
+  .projects__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 2rem;
+  }
+
+  .projects__details {
+    display: flex;
+    gap: 1rem;
+  }
+  .belle2 {
+    width: 20rem;
+    height: 10rem;
+  }
+  .AN{
+      width: 15rem;
+      height: 10rem;
+  }
+  .TSP{
+    width: 15rem;
+    height: 10rem;
+}
+.project1{
+  margin-top: 8rem;
+  height: 280vh;
+}
